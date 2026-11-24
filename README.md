@@ -4,7 +4,9 @@
 **Автор:** `KILLNET_404`  
 **Тип проекта:** бесплатный пользовательский скрипт для браузера (userscript).
 
-**[Установить скрипт на Greasy Fork](https://greasyfork.org/ru/scripts/607125-microphone-auto-duck-aec)** · [Поддержать разработку](https://killnet404.github.io/support/) · [Telegram-канал](https://t.me/DevUndergroundLab)
+[![Установить на Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-B32629?style=for-the-badge&labelColor=24292f&logo=greasyfork&logoColor=white)](https://greasyfork.org/ru/scripts/607125-microphone-auto-duck-aec)
+[![Поддержать разработку](https://img.shields.io/badge/%E2%99%A5-%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-238636?style=for-the-badge&labelColor=24292f)](https://killnet404.github.io/support/)
+[![Telegram-канал Dev Underground](https://img.shields.io/badge/Telegram-Dev%20Underground-229ED9?style=for-the-badge&labelColor=24292f&logo=telegram&logoColor=white)](https://t.me/DevUndergroundLab)
 
 ## Для чего нужен скрипт
 
