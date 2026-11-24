@@ -4,7 +4,7 @@
 // @name:ru         Microphone Auto Duck + AEC
 // @description:ru  При голосовом вводе или разговоре приглушает HTML5-видео и аудио на сайтах, пока включён микрофон, и возвращает громкость после записи. Может запросить отключение эхоподавления (AEC) для более естественной диктовки.
 // @author          KILLNET_404
-// @supportURL      https://t.me/KILLNET_404
+// @supportURL      https://t.me/DevUndergroundLab
 // @contributionURL https://killnet404.github.io/support/
 // @version         0.7.5
 // @description     Automatically lowers HTML5 video and audio volume while you use the microphone, then restores it. Can request disabling echo cancellation (AEC) to help with voice dictation.
