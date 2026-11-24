@@ -1,0 +1,71 @@
+{
+  "description": {
+    "message": "Lowers HTML5 audio and video volume during microphone use and can request disabling echo cancellation (AEC)."
+  },
+  "subtitle": {
+    "message": "Automatic microphone mode"
+  },
+  "volume": {
+    "message": "Remaining media volume"
+  },
+  "hint": {
+    "message": "Relative to the original volume. Restored after microphone use."
+  },
+  "aec": {
+    "message": "Requests AEC off where supported. Calls on speakers may cause echo."
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "error": {
+    "message": "Could not save settings"
+  },
+  "loading": {
+    "message": "Loading settings…"
+  },
+  "channel": {
+    "message": "Channel"
+  },
+  "support": {
+    "message": "Support"
+  },
+  "status": {
+    "message": "Microphone detection runs automatically on supported web pages."
+  },
+  "enabledState": {
+    "message": "ON"
+  },
+  "disabledState": {
+    "message": "OFF"
+  },
+  "enabledSaved": {
+    "message": "Ducking enabled"
+  },
+  "disabledSaved": {
+    "message": "Ducking disabled"
+  },
+  "githubHint": {
+    "message": "Source and updates"
+  },
+  "channelHint": {
+    "message": "News and releases"
+  },
+  "supportHint": {
+    "message": "Donations and contacts"
+  },
+  "turnOn": {
+    "message": "Enable ducking"
+  },
+  "turnOff": {
+    "message": "Disable ducking"
+  },
+  "toggleLabel": {
+    "message": "Automatic volume ducking"
+  },
+  "pausedTitle": {
+    "message": "Volume ducking is off"
+  },
+  "pausedStatus": {
+    "message": "Media volume is not changed automatically."
+  }
+}

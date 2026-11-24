@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Microphone Auto Duck + AEC</title><link rel="stylesheet" href="popup.css"></head>
+<body><header><img src="icons/icon48.png" width="40" height="40" alt=""><div><h1>Microphone Auto Duck + AEC</h1><p class="muted">Dev Underground · v0.7.5</p></div>
+  <button id="toggleEnabled" type="button" class="toggle-button" aria-pressed="false" disabled>…</button>
+</header>
+<main>
+  <section class="info-panel" aria-labelledby="modeTitle">
+    <div class="mode"><span class="dot" aria-hidden="true"></span><span id="modeTitle" data-i18n="subtitle">Automatic microphone mode</span></div>
+    <p class="muted" data-i18n="status"></p>
+    <aside data-i18n="aec"></aside>
+  </section>
+  <section class="settings-panel">
+    <div class="volume-heading"><label id="volumeHeading" for="volumeSlider" data-i18n="volume">Remaining media volume</label><output id="volumeValue" for="volumeSlider">5%</output></div>
+    <fieldset disabled aria-labelledby="volumeHeading">
+      <input id="volumeSlider" type="range" min="0" max="100" step="1" value="5" aria-labelledby="volumeHeading" aria-valuetext="5%">
+      <div class="range-scale" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>
+    </fieldset>
+    <p class="muted" data-i18n="hint"></p>
+    <p id="message" role="status" aria-live="polite"></p>
+  </section>
+  <nav class="quick-links" aria-label="Project links">
+    <a class="link-pill github" href="https://github.com/KILLNET404/microphone-auto-duck-aec" target="_blank" rel="noopener noreferrer" title="GitHub">
+      <span class="icon-badge">&lt;/&gt;</span><span class="link-label">GitHub</span>
+    </a>
+    <a class="link-pill channel" href="https://t.me/DevUndergroundLab" target="_blank" rel="noopener noreferrer" title="Channel">
+      <span class="icon-badge">✈</span><span class="link-label" data-i18n="channel">Channel</span>
+    </a>
+    <a class="link-pill support" href="https://killnet404.github.io/support/" target="_blank" rel="noopener noreferrer" title="Support">
+      <span class="icon-badge">❤</span><span class="link-label" data-i18n="support">Support</span>
+    </a>
+  </nav>
+</main>
+<script src="popup.js"></script></body></html>
